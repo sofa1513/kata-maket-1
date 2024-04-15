@@ -94,6 +94,29 @@ html {
     display: none;
 }
 
+.burger {
+  background-image: url('/img/burger.svg');
+}
+
+.call {
+  background-image: url('/img/call.svg');
+}
+
+.chat {
+  background-image: url('/img/chat.svg');
+}
+
+.profile{
+  background-image: url('/img/profile.svg');
+}
+
+.repair{
+  background-image: url('/img/repair.svg');
+}
+.checkstatus{
+  background-image: url('/img/checkstatus.svg');
+}
+
 .logo {
   position: relative;
   display: inline-block;
@@ -120,6 +143,15 @@ html {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
+.nav__list {
+display: flex;
+margin: 0;
+padding-left: 16px;
+flex-wrap: nowrap;
+overflow: auto;
+}
+
 
 .content {
   margin: 20px 16px;
@@ -266,6 +298,9 @@ html {
 .title-wrapper::before {
     top: 9px;
 }
+.nav__list {
+  flex-wrap: wrap;
+  }
 }
 
 .title {
@@ -304,13 +339,8 @@ margin: 0;
 vertical-align: middle;
 }
 
-.nav__list {
-display: flex;
-margin: 0;
-padding-left: 16px;
-flex-wrap: nowrap;
-overflow: auto;
-}
+
+
 .nav__link {
 text-decoration: none;
 white-space: nowrap;
