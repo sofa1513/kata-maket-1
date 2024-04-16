@@ -95,26 +95,26 @@ html {
 }
 
 .burger {
-  background-image: url('/img/burger.svg');
+  background-image: url('../img/burger.svg');
 }
 
 .call {
-  background-image: url('/img/call.svg');
+  background-image: url('../img/call.svg');
 }
 
 .chat {
-  background-image: url('/img/chat.svg');
+  background-image: url('../img/chat.svg');
 }
 
 .profile{
-  background-image: url('/img/profile.svg');
+  background-image: url('../img/profile.svg');
 }
 
 .repair{
-  background-image: url('/img/repair.svg');
+  background-image: url('../img/repair.svg');
 }
 .checkstatus{
-  background-image: url('/img/checkstatus.svg');
+  background-image: url('../img/checkstatus.svg');
 }
 
 .logo {
@@ -306,7 +306,7 @@ flex-wrap: wrap;
   position:absolute;
 }
 .title__repair::after{
-background-image: url(/img/repair.svg);
+background-image: url(../img/repair.svg);
 content: '';
 width: 40px;
 height: 40px;
@@ -320,7 +320,7 @@ margin-left: 150px;
   margin-left:140px;
 }
 .title__check::after{
-background-image: url(/img/repair.svg);
+background-image: url(../img/repair.svg);
 content: '';
 width: 40px;
 height: 40px;
